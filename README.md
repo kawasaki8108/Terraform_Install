@@ -78,6 +78,7 @@ aws s3 mb s3://tf-240102test1
 * S3バケット削除(確認したら不要なので)
 ```bash
 aws s3 rb s3://tf-240102test1 --force
+>remove_bucket: tf-240102test1
 ```
 
 以上でTerraformのインストール完了です。
