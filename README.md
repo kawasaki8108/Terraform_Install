@@ -5,7 +5,7 @@
 ## 前提
 * 操作するCLI：GitBash
 * インストール方法：[tfenv](https://github.com/tfutils/tfenv)(GitHub)をDLしてからのインストール
-* AWS CLIインストール済み：最後のTerraformの動作確認に使う
+* [AWS CLIインストール済み](https://github.com/kawasaki8108/AWS-CLI-Install)：最後のTerraformの動作確認に使う
  
 ## 参考記事
 * [【AWS】Windows環境でTerraformをインストールしEC2を起動するまでの手順を検証してみた](https://harusite.net/20211128/)
