@@ -75,6 +75,10 @@ aws s3 mb s3://tf-240102test1
 * コンソール画面で確認
 ![Terraformで作ったS3バケットコンソール確認](Terraformで作ったS3バケットコンソール確認.png)
 
+* S3バケット削除(確認したら不要なので)
+```bash
+aws s3 rb s3://tf-240102test1 --force
+```
 
 以上でTerraformのインストール完了です。
 
