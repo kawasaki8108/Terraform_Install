@@ -65,21 +65,6 @@ terraform version   #Terraformのインストール確認
 >on windows_amd64
 ```
 
-## Terraformの動作確認
-S3バケットを作ってコンソールで確認してみる
->（注意）`s3://`の後ろはバケットの名前なので好きに入力ください。ただ、よくある名前だと重複問題？ではじかれるので、独自性の高い名前で。
-* S3バケット作成
-```bash
-aws s3 mb s3://tf-240102test1
-```
-* コンソール画面で確認
-![Terraformで作ったS3バケットコンソール確認](Terraformで作ったS3バケットコンソール確認.png)
-
-* S3バケット削除(確認したら不要なので)
-```bash
-aws s3 rb s3://tf-240102test1 --force
->remove_bucket: tf-240102test1
-```
 
 以上でTerraformのインストール完了です。
 
